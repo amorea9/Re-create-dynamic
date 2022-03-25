@@ -140,36 +140,40 @@ hr {
   gap: 0.7rem;
   align-items: center;
 }
-.color1,
-.color2,
-.color3,
-.color4,
-.color5,
-.color6,
-.color7 {
+
+.black,
+.white,
+.red,
+.blue,
+.green,
+.turquoise,
+.darkred {
   height: 13px;
   width: 13px;
 }
-.color1 {
+.black {
   background-color: black;
 }
-.color2 {
+.white {
   background-color: blanchedalmond;
 }
-.color3 {
+.red {
   background-color: red;
 }
-.color4 {
+.blue {
   background-color: rgb(57, 130, 240);
 }
-.color5 {
+.green {
   background-color: rgb(94, 119, 94);
 }
-.color6 {
+.turquoise {
   background-color: rgb(27, 167, 177);
 }
-.color7 {
+.darkred {
   background-color: rgb(66, 18, 12);
+}
+.hidden {
+  display: none;
 }
 .brand {
   text-transform: uppercase;
